@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: oklch(0 0 0);
+  --color-foreground: oklch(0.95 0.01 270);
+  --color-card: oklch(0.13 0.02 270);
+  --color-card-foreground: oklch(0.95 0.01 270);
+  --color-popover: oklch(0.13 0.02 270);
+  --color-popover-foreground: oklch(0.95 0.01 270);
+  --color-primary: oklch(0.7 0.25 270);
+  --color-primary-foreground: oklch(0.98 0 0);
+  --color-secondary: oklch(0.2 0.04 270);
+  --color-secondary-foreground: oklch(0.9 0.01 270);
+  --color-muted: oklch(0.2 0.04 270);
+  --color-muted-foreground: oklch(0.6 0.02 270);
+  --color-accent: oklch(0.25 0.06 270);
+  --color-accent-foreground: oklch(0.95 0.01 270);
+  --color-destructive: oklch(0.55 0.2 25);
+  --color-destructive-foreground: oklch(0.98 0 0);
+  --color-border: oklch(0.25 0.04 270);
+  --color-input: oklch(0.25 0.04 270);
+  --color-ring: oklch(0.7 0.25 270);
+
+  --color-clawmedy-cyan: oklch(0.83 0.12 200);
+  --color-clawmedy-magenta: oklch(0.72 0.18 340);
+  --color-clawmedy-orange: oklch(0.78 0.14 65);
+  --color-clawmedy-green: oklch(0.75 0.18 145);
+
+  --radius: 0.75rem;
+
+  --font-sans: var(--font-figtree);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-instrument-serif);
+}
+
+body {
+  background: oklch(0 0 0);
+  color: oklch(0.95 0.01 270);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-width: 1024px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+}
+
+@utility glass-heavy {
+  background: oklch(0 0 0 / 0.6);
+  backdrop-filter: blur(16px);
+  border-color: oklch(0.25 0.04 270 / 0.5);
+}
+
+@utility glass-light {
+  background: oklch(0 0 0 / 0.3);
+  backdrop-filter: blur(8px);
+  border-color: oklch(0.25 0.04 270 / 0.3);
+}

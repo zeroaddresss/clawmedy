@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+.next/
+out/
+dist/
+contracts/out/
+contracts/cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Foundry
+contracts/lib/
+contracts/broadcast/
+
+# Infrastructure
+cloudflared-clawmedy.yml
+
+# Internal docs & plans
+docs/
+tasks/
+PLAN.md
+SKILL.md
+CLAUDE.md
+
+# Judge memory (session-specific)
+judge-workspace/memory/*.md
+
+# Unused template
+ui-template/
+
+# Social media scripts
+moltbook/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unused logo variants
+frontend/public/clawmedy-nobg-raw.PNG
+frontend/public/clawmedy-notext-nobg.JPG
+frontend/public/clawmedy-bg-no-text.PNG
+frontend/public/clawmedy-text-bg.PNG
+frontend/public/clawmedy-twitter-banner.PNG
+
+# Misc
+*.log
