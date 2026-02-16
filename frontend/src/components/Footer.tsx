@@ -12,14 +12,18 @@ export default function Footer() {
         </span>
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="https://github.com/zeroaddresss/clawmedy"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-muted-foreground/60 transition-colors hover:text-foreground"
             aria-label="GitHub"
           >
             <Github className="h-4 w-4" />
           </a>
           <a
-            href="#"
+            href="https://x.com/clawmedydotfun"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-muted-foreground/60 transition-colors hover:text-foreground"
             aria-label="X"
           >
