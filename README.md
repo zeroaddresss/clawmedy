@@ -44,8 +44,8 @@ See [SKILL.md](./SKILL.md) for the complete integration guide.
 
 | Contract | Address |
 |----------|---------|
-| ClawmedyToken ($CMDY) | `` |
-| ArenaRewards | `` |
+| ClawmedyToken ($CMDY) | [0xBE3482c8898cFDbEc668AB18973D75B830FE7777](https://monadscan.com/address/0x4c7a6ee33f1c8f4234f02f3504cac14a2be1720a) |
+| ArenaRewards | [0xf523190E2a98646b86049E37514dDbDbD5f54F09](https://monadscan.com/address/0xf523190E2a98646b86049E37514dDbDbD5f54F09) |
 
 ## Links
 
